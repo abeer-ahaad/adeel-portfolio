@@ -1,10 +1,9 @@
 "use client"
 
 import { useState } from "react"
+import VideoModal from "./VideoModal"
 import VideoThumbnail from "./VideoThumbnail"
 import { VideoType } from "./VideoTrailer"
-import { CgChevronDoubleDown } from "react-icons/cg"
-import VideoModal from "./VideoModal"
 
 export default function Videos() {
   const [selectedVideo, setSelectedVideo] = useState<VideoType | null>(null)
@@ -21,47 +20,50 @@ export default function Videos() {
   ]
 
   return (
-    <div className="">
-      <div className="grid grid-flow-col grid-cols-5 grid-rows-3 gap-4">
+    <div className="max-w-350 mx-auto">
+      <div className="grid grid-flow-col grid-cols-5 grid-rows-8 gap-4 items-start">
         {/* Reel video - span 2 rows */}
         <VideoThumbnail
           video={videos[0]}
           onClick={() => setSelectedVideo(videos[0])}
+          className={"row-span-2"}
         />
         <VideoThumbnail
           video={videos[1]}
           onClick={() => setSelectedVideo(videos[1])}
-          className={"row-span-2"}
+          className={"row-span-6"}
         />
         <VideoThumbnail
           video={videos[2]}
           onClick={() => setSelectedVideo(videos[2])}
-          className={"row-span-2"}
+          className={"row-span-6"}
         />
         <div />
         <VideoThumbnail
           video={videos[3]}
           onClick={() => setSelectedVideo(videos[3])}
+          className={"row-span-2"}
         />
         <VideoThumbnail
           video={videos[4]}
           onClick={() => setSelectedVideo(videos[4])}
-          className={"row-span-2"}
+          className={"row-span-6"}
         />
         <VideoThumbnail
           video={videos[5]}
           onClick={() => setSelectedVideo(videos[5])}
-          className={"row-span-2"}
+          className={"row-span-6"}
         />
         <div />
         <VideoThumbnail
           video={videos[6]}
           onClick={() => setSelectedVideo(videos[6])}
+          className={"row-span-2"}
         />
         <VideoThumbnail
           video={videos[7]}
           onClick={() => setSelectedVideo(videos[7])}
-          className={"row-span-2"}
+          className={"row-span-6"}
         />
       </div>
 

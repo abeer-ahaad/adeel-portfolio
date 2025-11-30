@@ -2,8 +2,8 @@ import Image from "next/image"
 
 export default function Testimonials() {
   return (
-    <div className="w-full h-80">
-      <h1 className="text-end text-xl font-semibold mb-3">
+    <div className="w-full max-h-80">
+      <h1 className="text-xl font-semibold mb-3 rounded-lg px-3 py-1.5 text-center">
         What do people say about me?
       </h1>
       <div className="flex gap-3">
