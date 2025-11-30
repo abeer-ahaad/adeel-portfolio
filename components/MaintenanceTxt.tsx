@@ -9,8 +9,8 @@ export default function MaintenanceTxt() {
   if (!exists) return null
 
   return (
-    <div className="absolute top-2 w-350 left-1/2 -translate-x-1/2 bg-rose-500/40 px-2 py-1 rounded-lg">
-      <h1 className="text-center text-md tracking-wide font-semibold">
+    <div className="absolute top-3 lg:top-2 w-auto lg:w-350 lg:left-1/2 left-2 lg:right-auto right-2 translate-x-0 lg:-translate-x-1/2 bg-rose-500/40 px-1.5 lg:px-2 py-0.5 lg:py-1 rounded-lg">
+      <h1 className="text-center text-md tracking-normal lg:tracking-wide font-medium lg:font-semibold">
         This website is currently under construction.
       </h1>
       <button

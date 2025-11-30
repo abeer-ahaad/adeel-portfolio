@@ -9,7 +9,7 @@ export default function Avatar() {
         alt="avatar"
         width={500}
         height={500}
-        className="object-cover w-24 h-24 scale-110 object-[top_50%]"
+        className="object-cover w-16 h-16 lg:w-24 lg:h-24 scale-110 object-[top_50%]"
       />
     </div>
   )

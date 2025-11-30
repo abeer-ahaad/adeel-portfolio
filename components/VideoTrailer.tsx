@@ -23,8 +23,8 @@ export default function VideoTrailer() {
   ]
 
   return (
-    <div className="w-full h-auto">
-      <div className="grid grid-flow-col grid-cols-3 grid-rows-2 gap-4">
+    <div className="w-full h-auto mb-5 lg:mb-0">
+      <div className="hidden lg:grid grid-flow-col grid-cols-3 grid-rows-2 gap-4">
         {/* Reel video - span 2 rows */}
         <VideoThumbnail
           video={videos[0]}
@@ -47,9 +47,10 @@ export default function VideoTrailer() {
       </div>
       <Link
         href={"#my_work"}
-        className="block text-center scroll-smooth mt-4 px-4 py-2 w-full rounded-lg text-white font-semibold cursor-pointer transition-all shadow-xl bg-linear-to-r from-amber-600 to-amber-500 hover:bg-linear-to-b dark:shadow-amber-900 shadow-amber-200 hover:shadow-2xl hover:shadow-amber-400 hover:-tranneutral-y-px"
+        className="block text-center mt-0 lg:mt-4 px-4 py-2 w-full rounded-lg text-white font-semibold lg:cursor-pointer transition-all shadow-lg lg:shadow-xl bg-linear-to-r from-amber-600 to-amber-500 lg:hover:bg-linear-to-b dark:shadow-amber-900 shadow-amber-200 lg:hover:shadow-2xl lg:hover:shadow-amber-400 lg:hover:-tranneutral-y-px"
       >
-        Discover More{" "}
+        <span className="lg:hidden">See My Works</span>
+        <span className="hidden lg:inline">Discover More</span>{" "}
         <CgChevronDoubleDown className="inline-block font-semibold" />
       </Link>
 

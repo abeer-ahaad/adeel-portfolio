@@ -41,9 +41,9 @@ export default function VideoThumbnail({
 
       {/* Play button */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center transition-transform duration-300 group-hover:scale-110 shadow-lg">
+        <div className="lg:w-16 lg:h-16 w-12 h-12 bg-red-600 rounded-full flex items-center justify-center transition-transform duration-300 group-hover:scale-110 shadow-xl lg:shadow-lg">
           {/* Triangle play icon */}
-          <div className="w-0 h-0 border-l-20 border-l-white border-y-12 border-y-transparent ml-1" />
+          <div className="w-0 h-0 border-l-15 lg:border-l-20 border-l-white border-y-9 lg:border-y-12 border-y-transparent ml-1" />
         </div>
       </div>
     </div>
