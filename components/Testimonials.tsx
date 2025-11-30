@@ -6,7 +6,7 @@ export default function Testimonials() {
       <h1 className="text-xl font-semibold mb-3 rounded-lg px-3 py-1.5 text-center">
         What do people say about me?
       </h1>
-      <div className="flex gap-3">
+      <div className="flex gap-2">
         <div className="col-span-2 row-span-3 rounded-xl border border-zinc-700 p-2.5 bg-zinc-900">
           <div className="flex gap-2 items-center p-1.5 mb-2 rounded-lg bg-gray-800">
             <div className="border border-gray-700 rounded-full overflow-hidden">
@@ -23,7 +23,7 @@ export default function Testimonials() {
               <p className="text-gray-300 text-xs">CEO, Lazy Company</p>
             </div>
           </div>
-          <p className="tracking-wide">
+          <p className="tracking-wide line-clamp-6">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
             exercitationem temporibus aperiam, quam corporis qui amet. Ipsa,
             dolorem provident? dolor temporibus quam.
@@ -45,7 +45,7 @@ export default function Testimonials() {
               <p className="text-gray-300 text-xs">CEO, Lazy Company</p>
             </div>
           </div>
-          <p className="tracking-wide">
+          <p className="tracking-wide line-clamp-6">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
             exercitationem temporibus aperiam, quam corporis qui amet. Ipsa,
             dolorem provident? dolor temporibus quam.
@@ -67,7 +67,7 @@ export default function Testimonials() {
               <p className="text-gray-300 text-xs">CEO, Lazy Company</p>
             </div>
           </div>
-          <p className="tracking-wide">
+          <p className="tracking-wide line-clamp-6">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
             exercitationem temporibus aperiam, quam corporis qui amet. Ipsa,
             dolorem provident? dolor temporibus quam.

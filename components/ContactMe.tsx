@@ -14,7 +14,6 @@ export default function ContactMe() {
         </div>
 
         <div className="flex flex-col gap-4 font-roboto">
-          {/* className="h-11 flex items-center gap-2 relative text-xl font-semibold tracking-wide rounded-lg px-4 bg-indigo-500 shadow-lg shadow-indigo-500/50 inset-shadow-sm inset-shadow-indigo-700" */}
           <div className="w-fit relative text-xl font-semibold tracking-wide border-b border-transparent hover:border-zinc-100">
             <Image
               src={"/socials/open-email.png"}
@@ -25,7 +24,6 @@ export default function ContactMe() {
             />{" "}
             <span className="inline-block">arafatadeel18@gmail.com</span>
           </div>
-          {/* className="h-11 flex items-center gap-1 relative text-xl font-semibold tracking-wide rounded-lg px-4 bg-indigo-500 shadow-lg shadow-indigo-500/50 inset-shadow-sm inset-shadow-indigo-700" */}
           <Link
             href={"https://x.com/Adeel_arafat18"}
             className="w-fit relative text-xl font-semibold tracking-wide border-b border-transparent hover:border-zinc-100"
@@ -49,8 +47,8 @@ export default function ContactMe() {
               src={"/socials/instagram.png"}
               width={60}
               height={60}
-              alt="email"
-              className="inline-block w-6 relative border -ml-0.5"
+              alt="instagram"
+              className="inline-block w-5.5 relative border -ml-0.5"
             />{" "}
             <span className="inline-block -ml-0.5">
               <span className="inline-block mr-0.5">@</span>adeelcuts
@@ -65,7 +63,7 @@ export default function ContactMe() {
               width={60}
               height={60}
               alt="email"
-              className="inline-block w-6 relative bottom-0.5 border -ml-0.5"
+              className="inline-block w-6 relative bottom-0.3 border -ml-0.5"
             />{" "}
             <span className="inline-block -ml-0.5">
               <span className="inline-block mr-0.5">@</span>adeel1496
