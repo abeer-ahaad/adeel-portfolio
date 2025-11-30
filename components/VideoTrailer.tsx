@@ -4,6 +4,7 @@ import { useState } from "react"
 import VideoThumbnail from "./VideoThumbnail"
 import VideoModal from "./VideoModal"
 import { CgChevronDoubleDown } from "react-icons/cg"
+import Link from "next/link"
 
 export interface VideoType {
   id: string
@@ -38,10 +39,13 @@ export default function VideoTrailer() {
           onClick={() => setSelectedVideo(videos[2])}
         />
       </div>
-      <button className="mt-4 px-4 py-2 w-full rounded-lg text-white font-semibold cursor-pointer transition-all shadow-xl bg-linear-to-r from-amber-600 to-amber-500 hover:bg-linear-to-b dark:shadow-amber-900 shadow-amber-200 hover:shadow-2xl hover:shadow-amber-400 hover:-tranneutral-y-px">
+      <Link
+        href={"#my_work"}
+        className="block text-center scroll-smooth mt-4 px-4 py-2 w-full rounded-lg text-white font-semibold cursor-pointer transition-all shadow-xl bg-linear-to-r from-amber-600 to-amber-500 hover:bg-linear-to-b dark:shadow-amber-900 shadow-amber-200 hover:shadow-2xl hover:shadow-amber-400 hover:-tranneutral-y-px"
+      >
         Discover More{" "}
         <CgChevronDoubleDown className="inline-block font-semibold" />
-      </button>
+      </Link>
 
       {/* Modal */}
       {selectedVideo && (

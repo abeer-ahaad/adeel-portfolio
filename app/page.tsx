@@ -2,6 +2,7 @@ import AboutDescription from "@/components/AboutDescription"
 import ContactMe from "@/components/ContactMe"
 import Profile from "@/components/Profile"
 import Testimonials from "@/components/Testimonials"
+import Videos from "@/components/Videos"
 import VideoTrailer from "@/components/VideoTrailer"
 
 export default function Home() {
@@ -22,8 +23,11 @@ export default function Home() {
       </section>
 
       {/* Videos */}
-      <section className="videos py-10">
-        <h1 className="text-3xl font-semibold text-center">My Works</h1>
+      <section id="my_work" className="videos py-10 max-w-350 mx-auto">
+        <h1 className="text-3xl font-semibold text-center pb-5 mb-10 border-b">
+          My Works
+        </h1>
+        <Videos />
       </section>
     </div>
   )
