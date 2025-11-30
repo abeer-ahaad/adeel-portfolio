@@ -29,6 +29,11 @@ export default function Home() {
         </h1>
         <Videos />
       </section>
+
+      {/* Footer */}
+      <section className="py-10">
+        <h1 className="text-center">Copyright @ 2025-26 • Adeel Arafat</h1>
+      </section>
     </div>
   )
 }
