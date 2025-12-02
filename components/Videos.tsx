@@ -3,21 +3,10 @@
 import { useState } from "react"
 import VideoModal from "./VideoModal"
 import VideoThumbnail from "./VideoThumbnail"
-import { VideoType } from "./VideoTrailer"
+import { videos, VideoType } from "@/constants/videos"
 
 export default function Videos() {
   const [selectedVideo, setSelectedVideo] = useState<VideoType | null>(null)
-
-  const videos: VideoType[] = [
-    { id: "D-NgGKzmTt0", type: "normal", title: "Normal Video 1" },
-    { id: "3hapwk_ad-Y", type: "reel", title: "Shorts Video" },
-    { id: "fIrDOU02BbY", type: "reel", title: "Normal Video 2" },
-    { id: "9bZkp7q19f0", type: "normal", title: "Normal Video 2" },
-    { id: "FQp4xxZmDnk", type: "reel", title: "Normal Video 2" },
-    { id: "RA523rwBcr0", type: "reel", title: "Normal Video 2" },
-    { id: "FlsCjmMhFmw", type: "normal", title: "Normal Video 2" },
-    { id: "SwZp0g48i90", type: "reel", title: "Normal Video 2" },
-  ]
 
   return (
     <div className="lg:max-w-350 lg:mx-auto mx-4">

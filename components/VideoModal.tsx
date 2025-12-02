@@ -1,7 +1,7 @@
 "use client"
 
+import { VideoType } from "@/constants/videos"
 import { useEffect } from "react"
-import { VideoType } from "./VideoTrailer"
 
 export default function VideoModal({
   video,
@@ -67,7 +67,6 @@ export default function VideoModal({
         <iframe
           className="w-full h-full rounded-lg"
           src={`https://www.youtube.com/embed/${video.id}?autoplay=1`}
-          title={video.title}
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen

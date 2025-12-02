@@ -5,22 +5,10 @@ import VideoThumbnail from "./VideoThumbnail"
 import VideoModal from "./VideoModal"
 import { CgChevronDoubleDown } from "react-icons/cg"
 import Link from "next/link"
-
-export interface VideoType {
-  id: string
-  type: "reel" | "normal"
-  title: string
-}
+import { VideoType, trailerVideos as videos } from "@/constants/videos"
 
 export default function VideoTrailer() {
   const [selectedVideo, setSelectedVideo] = useState<VideoType | null>(null)
-
-  const videos: VideoType[] = [
-    { id: "3hapwk_ad-Y", type: "reel", title: "Shorts Video" },
-    { id: "D-NgGKzmTt0", type: "normal", title: "Normal Video 1" },
-    { id: "9bZkp7q19f0", type: "normal", title: "Normal Video 2" },
-    { id: "jjGuWOlXJhA", type: "reel", title: "Normal Video 2" },
-  ]
 
   return (
     <div className="w-full h-auto mb-5 lg:mb-0">

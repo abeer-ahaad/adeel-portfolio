@@ -1,9 +1,10 @@
-import AboutDescription from "@/components/AboutDescription"
 import ContactMe from "@/components/ContactMe"
 import Profile from "@/components/Profile"
 import Testimonials from "@/components/Testimonials"
 import Videos from "@/components/Videos"
 import VideoTrailer from "@/components/VideoTrailer"
+import { BIO_TEXT } from "@/constants/profile"
+import { lineBreakAddedText } from "@/utils/helpers"
 
 export default function Home() {
   return (
@@ -12,7 +13,11 @@ export default function Home() {
       <section className="min-h-screen lg:flex lg:gap-10 lg:items-start lg:max-w-350 mx-4 lg:mx-auto pt-14 lg:pt-20 pb-10 lg:pb-0">
         <div className="lg:flex-1">
           <Profile />
-          <AboutDescription />
+          <div className="lg:w-4/5 mb-10 lg:mb-15">
+            <p className="text-lg lg:text-lg leading-snug">
+              {lineBreakAddedText(BIO_TEXT)}
+            </p>
+          </div>
           <ContactMe />
         </div>
         <div className="lg:flex-1 flex flex-col items-end">

@@ -1,8 +1,8 @@
 "use client"
 
 import Image from "next/image"
-import { VideoType } from "./VideoTrailer"
 import { cn } from "@/lib/utils"
+import { VideoType } from "@/constants/videos"
 
 // components/VideoThumbnail.jsx
 export default function VideoThumbnail({
@@ -30,7 +30,7 @@ export default function VideoThumbnail({
     >
       <Image
         src={thumbnailUrl}
-        alt={video.title}
+        alt={isReel ? "Short" : "Video"}
         fill
         sizes="100vw"
         className="object-cover transition-transform duration-300 group-hover:scale-110"
