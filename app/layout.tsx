@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Geist, Geist_Mono, Roboto } from "next/font/google"
+import { Geist, Geist_Mono, Poppins, Montserrat } from "next/font/google"
 import "./globals.css"
 import MaintenanceTxt from "@/components/MaintenanceTxt"
 
@@ -13,10 +13,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 })
 
-const roboto = Roboto({
-  variable: "--font-roboto",
+const popppins = Poppins({
+  variable: "--font-poppins",
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+})
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
 })
 
 export const metadata: Metadata = {
@@ -32,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${roboto.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${popppins.variable} ${montserrat.variable} antialiased`}
       >
         <MaintenanceTxt />
         {children}

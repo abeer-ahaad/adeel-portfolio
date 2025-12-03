@@ -10,14 +10,16 @@ import Link from "next/link"
 
 export default function ContactMe() {
   return (
-    <div className="lg:w-4/5 mb-10 lg:mb-0">
-      <h1 className="text-3xl font-bold mb-1.5 lg:mb-2">Contact Me</h1>
+    <div className="lg:w-4/5 mb-10 lg:mb-0 font-montserrat">
+      <h1 className="w-fit uppercase text-3xl font-bold mb-1.7 lg:mb-4 relative before:absolute before:-bottom-1 before:left-0 before:w-[10%] before:h-1 before:bg-[#D30942] before:rounded-full after:absolute after:-bottom-1 after:right-0 after:w-[89%] after:h-1 after:bg-zinc-200 after:rounded-full">
+        Contact Me
+      </h1>
       <div className="">
         <div className="mb-2 lg:mb-4 pb-1 lg:pb-0 border-b lg:border-b-0">
-          <p className="text-base lg:text-lg">{CONTACT_DESC}</p>
+          <p className="text-base lg:text-lg font-semibold">{CONTACT_DESC}</p>
         </div>
 
-        <div className="flex flex-col gap-1.5 lg:gap-4 font-roboto">
+        <div className="flex flex-col gap-1.5 lg:gap-4 italic">
           <div className="w-fit relative text-lg lg:text-xl font-medium lg:font-semibold tracking-wide lg:border-b lg:border-transparent lg:hover:border-zinc-100">
             <Image
               src={"/socials/open-email.png"}

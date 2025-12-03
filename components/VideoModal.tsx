@@ -38,7 +38,7 @@ export default function VideoModal({
       <div
         className={`relative ${
           isReel
-            ? "w-full max-w-[500px] aspect-[9/16]"
+            ? "w-full max-w-[500px] aspect-9/16"
             : "w-full max-w-4xl aspect-video"
         }`}
         onClick={(e) => e.stopPropagation()} // Prevent closing when clicking video

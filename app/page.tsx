@@ -14,7 +14,7 @@ export default function Home() {
         <div className="lg:flex-1">
           <Profile />
           <div className="lg:w-4/5 mb-10 lg:mb-15">
-            <p className="text-lg lg:text-lg leading-snug">
+            <p className="text-lg lg:text-lg leading-snug tracking-tight font-poppins">
               {lineBreakAddedText(BIO_TEXT)}
             </p>
           </div>
@@ -29,9 +29,10 @@ export default function Home() {
 
       {/* Videos */}
       <section id="my_work" className="videos py-8 lg:py-20 bg-zinc-900">
-        <h1 className="lg:max-w-350 lg:mx-auto mx-4 text-2xl lg:text-3xl font-semibold text-center pb-2 lg:pb-5 mb-6 lg:mb-10 border-b">
+        <h1 className="w-fit uppercase text-3xl font-bold mx-auto mb-6 lg:mb-10 relative before:absolute before:-bottom-2 before:-left-[4.3%] before:w-[14%] before:h-1 before:bg-[#D30942] after:absolute after:-bottom-2 after:-right-[4.3%] after:w-[93%] after:h-1 after:bg-zinc-200">
           My Works
         </h1>
+
         <Videos />
       </section>
 

@@ -4,19 +4,19 @@ export interface VideoType {
 }
 
 export const videos: VideoType[] = [
+  { id: "UkpWzbvzOPU", type: "normal" },
+  { id: "vdyJP1YyPO0", type: "reel" },
+  { id: "Xu1MdH1jp_Q", type: "reel" },
   { id: "D-NgGKzmTt0", type: "normal" },
-  { id: "3hapwk_ad-Y", type: "reel" },
-  { id: "fIrDOU02BbY", type: "reel" },
-  { id: "9bZkp7q19f0", type: "normal" },
-  { id: "FQp4xxZmDnk", type: "reel" },
-  { id: "RA523rwBcr0", type: "reel" },
-  { id: "FlsCjmMhFmw", type: "normal" },
-  { id: "SwZp0g48i90", type: "reel" },
+  { id: "bwGDFui8akI", type: "reel" },
+  { id: "UNmWgdXokVw", type: "reel" },
+  { id: "KKA60en_HwY", type: "normal" },
+  { id: "92k6N1boAgI", type: "reel" },
 ]
 
 export const trailerVideos: VideoType[] = [
-  { id: "3hapwk_ad-Y", type: "reel" },
+  { id: "vdyJP1YyPO0", type: "reel" },
+  { id: "UkpWzbvzOPU", type: "normal" },
   { id: "D-NgGKzmTt0", type: "normal" },
-  { id: "9bZkp7q19f0", type: "normal" },
-  { id: "jjGuWOlXJhA", type: "reel" },
+  { id: "Xu1MdH1jp_Q", type: "reel" },
 ]
