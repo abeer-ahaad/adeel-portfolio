@@ -35,7 +35,7 @@ export default function VideoTrailer() {
       </div>
       <Link
         href={"#my_work"}
-        className="block text-center mt-0 lg:mt-4 px-4 py-2 w-full rounded-lg text-white font-semibold lg:cursor-pointer transition-all shadow-lg lg:shadow-xl bg-linear-to-r from-amber-600 to-amber-500 lg:hover:bg-linear-to-b dark:shadow-amber-900 shadow-amber-200 lg:hover:shadow-2xl lg:hover:shadow-amber-400 lg:hover:-tranneutral-y-px"
+        className="block text-center mt-0 lg:mt-4 px-4 py-2 w-full rounded-lg text-white font-semibold lg:cursor-pointer transition-all shadow-lg lg:shadow-xl bg-linear-to-r from-amber-600 to-amber-500 lg:hover:bg-linear-to-b shadow-amber-900 lg:hover:shadow-2xl lg:hover:shadow-amber-400 lg:hover:-tranneutral-y-px"
       >
         <span className="lg:hidden">See My Works</span>
         <span className="hidden lg:inline">Discover More</span>{" "}

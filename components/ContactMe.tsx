@@ -7,6 +7,8 @@ import {
 } from "@/constants/contact"
 import Image from "next/image"
 import Link from "next/link"
+import { BsDiscord, BsInstagram, BsTwitterX, BsX } from "react-icons/bs"
+import { MdEmail } from "react-icons/md"
 
 export default function ContactMe() {
   return (
@@ -15,68 +17,52 @@ export default function ContactMe() {
         Contact Me
       </h1>
       <div className="">
-        <div className="mb-2 lg:mb-4 pb-1 lg:pb-0">
+        <div className="mb-2 lg:mb-3 pb-1 lg:pb-0">
           <p className="text-base lg:text-lg font-semibold">{CONTACT_DESC}</p>
         </div>
 
-        <div className="flex flex-col gap-1.5 lg:gap-4 italic">
-          <div className="w-fit relative text-lg lg:text-xl font-medium lg:font-semibold tracking-wide lg:border-b lg:border-transparent lg:hover:border-zinc-100">
-            <Image
-              src={"/socials/open-email.png"}
-              width={60}
-              height={60}
-              alt="email"
-              className="inline-block w-5 lg:w-5 h-auto relative bottom-0.5 lg:bottom-1"
-            />{" "}
-            <span className="inline-block">{EMAIL_ADDRESS}</span>
+        <div className="flex flex-col gap-1 lg:gap-2 italic">
+          <div className="relative w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 py-1.5 rounded-lg hover:border-sky-600 hover:bg-linear-to-r hover:from-sky-600 hover:to-sky-500">
+            <div className="absolute bg-sky-500 h-full aspect-square flex items-center justify-center rounded-lg top-0 left-0">
+              <MdEmail className="text-2xl" />
+            </div>
+            <span className="inline-block ml-12">{EMAIL_ADDRESS}</span>
           </div>
           <Link
             href={X.link}
             target="_blank"
-            className="w-fit relative text-lg lg:text-xl font-medium lg:font-semibold tracking-wide lg:border-b lg:border-transparent lg:hover:border-zinc-100"
+            className="relative w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 py-1.5 rounded-lg group hover:border-zinc-700 hover:bg-linear-to-r hover:from-zinc-800 hover:to-zinc-700"
           >
-            <Image
-              src={"/socials/x.png"}
-              width={60}
-              height={60}
-              alt="X"
-              className="inline-block w-6 relative border -ml-0.5"
-            />{" "}
+            <div className="absolute bg-zinc-700 group-hover:bg-zinc-600 h-full aspect-square flex items-center justify-center rounded-lg top-0 left-0">
+              <BsTwitterX className="text-xl" />
+            </div>
             <span className="inline-block -ml-0.5">
-              <span className="inline-block mr-0.5">@</span>
+              <span className="inline-block ml-12 mr-0.5">@</span>
               {X.username}
             </span>
           </Link>
           <Link
             href={INSTAGRAM.link}
             target="_blank"
-            className="w-fit relative text-lg lg:text-xl font-medium lg:font-semibold tracking-wide lg:border-b lg:border-transparent lg:hover:border-zinc-100"
+            className="relative w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 hover:border-rose-600 py-1.5 rounded-lg group hover:bg-linear-to-r hover:from-rose-600 hover:to-rose-500"
           >
-            <Image
-              src={"/socials/instagram.png"}
-              width={60}
-              height={60}
-              alt="instagram"
-              className="inline-block w-5.5 relative border -ml-0.5"
-            />{" "}
+            <div className="absolute bg-rose-500 group-hover:bg-rose-400 h-full aspect-square flex items-center justify-center rounded-lg top-0 left-0">
+              <BsInstagram className="text-xl" />
+            </div>
             <span className="inline-block -ml-0.5">
-              <span className="inline-block mr-0.5">@</span>
+              <span className="inline-block ml-12 mr-0.5">@</span>
               {INSTAGRAM.username}
             </span>
           </Link>
           <Link
             href={DISCORD.link}
-            className="w-fit relative text-lg lg:text-xl font-medium lg:font-semibold tracking-wide lg:border-b lg:border-transparent lg:hover:border-zinc-100"
+            className="relative w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 hover:border-indigo-700 py-1.5 rounded-lg group hover:bg-linear-to-r hover:from-indigo-700 hover:to-indigo-600"
           >
-            <Image
-              src={"/socials/white-discord.png"}
-              width={60}
-              height={60}
-              alt="discord"
-              className="inline-block w-5.5 relative bottom-0.3 border -ml-0.5"
-            />{" "}
+            <div className="absolute bg-indigo-600 group-hover:bg-indigo-500 h-full aspect-square flex items-center justify-center rounded-lg top-0 left-0">
+              <BsDiscord className="text-xl" />
+            </div>
             <span className="inline-block -ml-0.5">
-              <span className="inline-block mr-0.5">@</span>
+              <span className="inline-block ml-12 mr-0.5">@</span>
               {DISCORD.username}
             </span>
           </Link>
