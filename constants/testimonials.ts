@@ -1,25 +1,25 @@
 export const TESTI_HEADING = "What do people say about me?"
 export const TESTIMONIAL1 = {
-  user_name: "Mofiz Khan",
-  prof: "CEO",
-  company: "The Lazy Company",
+  user_name: "Abdullah Al Noman",
+  prof: "Owner",
+  company: "Target 7+ IELTS Academy",
   testimonial:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam exercitationem temporibus aperiam, quam corporis qui amet. Ipsa, dolorem provident? dolor temporibus quam.",
-  image: "/man-with-coffee.jpg",
+    "Adeel has been amazing to work with. He understands exactly how to shape content for our audience and delivers clean, polished edits every time. Truly reliable and professional.",
+  image: "/noman.png",
 }
 export const TESTIMONIAL2 = {
-  user_name: "Billal Chowdhury",
-  prof: "Marketer",
-  company: "Bhikhari Youtube Channel",
+  user_name: "Saidur Rahman Suzad",
+  prof: "Owner",
+  company: "Overseas Student Consultancy",
   testimonial:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam exercitationem temporibus aperiam, quam corporis qui amet. Ipsa, dolorem provident? dolor temporibus quam.",
-  image: "/man-with-coffee.jpg",
+    "Adeel brought a fresh, clean style to our student-focused videos. He made the content more engaging and easy to watch, and always delivered on time. Great experience working with him.",
+  image: "/suzad.jpeg",
 }
 export const TESTIMONIAL3 = {
-  user_name: "Hashem Patowary",
-  prof: "Content Creator",
-  company: "BottomG Youtube Channel",
+  user_name: "Al Arafat Mujahid",
+  prof: "Co-Owner",
+  company: "Branding Agency",
   testimonial:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam exercitationem temporibus aperiam, quam corporis qui amet. Ipsa, dolorem provident? dolor temporibus quam.",
-  image: "/man-with-coffee.jpg",
+    "Working with Adeel was smooth from start to finish. He gets branding, he gets storytelling, and his edits always elevate the final product. Definitely someone you can trust with your visuals.",
+  image: "/mujahid.jpeg",
 }

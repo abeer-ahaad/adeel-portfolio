@@ -9,7 +9,7 @@ export const videos: VideoType[] = [
   { id: "Xu1MdH1jp_Q", type: "reel" },
   { id: "D-NgGKzmTt0", type: "normal" },
   { id: "bwGDFui8akI", type: "reel" },
-  { id: "UNmWgdXokVw", type: "reel" },
+  { id: "GZyzcFRxlME", type: "reel" },
   { id: "KKA60en_HwY", type: "normal" },
   { id: "92k6N1boAgI", type: "reel" },
 ]

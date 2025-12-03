@@ -5,9 +5,8 @@ import {
   INSTAGRAM,
   X,
 } from "@/constants/contact"
-import Image from "next/image"
 import Link from "next/link"
-import { BsDiscord, BsInstagram, BsTwitterX, BsX } from "react-icons/bs"
+import { BsDiscord, BsInstagram, BsTwitterX } from "react-icons/bs"
 import { MdEmail } from "react-icons/md"
 
 export default function ContactMe() {
