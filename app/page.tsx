@@ -29,7 +29,7 @@ export default function Home() {
 
       {/* Videos */}
       <section id="my_work" className="videos py-8 lg:py-20 bg-zinc-900">
-        <h1 className="w-fit uppercase text-3xl font-bold mx-auto mb-6 lg:mb-10 relative before:absolute before:-bottom-2 before:-left-[4.3%] before:w-[14%] before:h-1 before:bg-[#D30942] after:absolute after:-bottom-2 after:-right-[4.3%] after:w-[93%] after:h-1 after:bg-zinc-200">
+        <h1 className="w-fit uppercase text-3xl font-bold mx-auto mb-8 lg:mb-10 relative before:absolute before:-bottom-2 before:-left-[4.3%] before:w-[14%] before:h-1 before:bg-[#D30942] after:absolute after:-bottom-2 after:-right-[4.3%] after:w-[93%] after:h-1 after:bg-zinc-200">
           My Works
         </h1>
 
