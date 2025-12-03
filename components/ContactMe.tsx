@@ -20,8 +20,8 @@ export default function ContactMe() {
           <p className="text-base lg:text-lg font-semibold">{CONTACT_DESC}</p>
         </div>
 
-        <div className="flex flex-col gap-1 lg:gap-2 italic">
-          <div className="relative w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 py-1.5 rounded-lg hover:border-sky-600 hover:bg-linear-to-r hover:from-sky-600 hover:to-sky-500">
+        <div className="flex flex-col gap-1.5 lg:gap-2 italic">
+          <div className="relative w-full lg:w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 py-1.5 rounded-lg hover:border-sky-600 hover:bg-linear-to-r hover:from-sky-600 hover:to-sky-500">
             <div className="absolute bg-sky-500 h-full aspect-square flex items-center justify-center rounded-lg top-0 left-0">
               <MdEmail className="text-2xl" />
             </div>
@@ -30,7 +30,7 @@ export default function ContactMe() {
           <Link
             href={X.link}
             target="_blank"
-            className="relative w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 py-1.5 rounded-lg group hover:border-zinc-700 hover:bg-linear-to-r hover:from-zinc-800 hover:to-zinc-700"
+            className="relative w-full lg:w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 py-1.5 rounded-lg group hover:border-zinc-700 hover:bg-linear-to-r hover:from-zinc-800 hover:to-zinc-700"
           >
             <div className="absolute bg-zinc-700 group-hover:bg-zinc-600 h-full aspect-square flex items-center justify-center rounded-lg top-0 left-0">
               <BsTwitterX className="text-xl" />
@@ -43,7 +43,7 @@ export default function ContactMe() {
           <Link
             href={INSTAGRAM.link}
             target="_blank"
-            className="relative w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 hover:border-rose-600 py-1.5 rounded-lg group hover:bg-linear-to-r hover:from-rose-600 hover:to-rose-500"
+            className="relative w-full lg:w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 hover:border-rose-600 py-1.5 rounded-lg group hover:bg-linear-to-r hover:from-rose-600 hover:to-rose-500"
           >
             <div className="absolute bg-rose-500 group-hover:bg-rose-400 h-full aspect-square flex items-center justify-center rounded-lg top-0 left-0">
               <BsInstagram className="text-xl" />
@@ -55,7 +55,7 @@ export default function ContactMe() {
           </Link>
           <Link
             href={DISCORD.link}
-            className="relative w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 hover:border-indigo-700 py-1.5 rounded-lg group hover:bg-linear-to-r hover:from-indigo-700 hover:to-indigo-600"
+            className="relative w-full lg:w-5/7 text-lg lg:text-xl font-medium lg:font-semibold tracking-wide border-2 border-rose-500 hover:border-indigo-700 py-1.5 rounded-lg group hover:bg-linear-to-r hover:from-indigo-700 hover:to-indigo-600"
           >
             <div className="absolute bg-indigo-600 group-hover:bg-indigo-500 h-full aspect-square flex items-center justify-center rounded-lg top-0 left-0">
               <BsDiscord className="text-xl" />
