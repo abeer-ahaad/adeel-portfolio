@@ -11,5 +11,5 @@ export const INSTAGRAM = {
 }
 export const DISCORD = {
   username: "adeel1496",
-  link: "#",
+  link: "https://discordid.netlify.app/?id=1093954559342293163",
 }
