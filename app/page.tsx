@@ -13,7 +13,7 @@ export default function Home() {
       <section className="min-h-screen lg:flex lg:gap-10 lg:items-start lg:max-w-350 mx-4 lg:mx-auto pt-14 lg:pt-20 pb-10 lg:pb-0">
         <div className="lg:flex-1">
           <Profile />
-          <div className="lg:w-4/5 mb-10 lg:mb-15">
+          <div className="lg:w-4/5 mb-10 lg:mb-12">
             <p className="text-lg lg:text-lg leading-snug tracking-tight font-poppins">
               {lineBreakAddedText(BIO_TEXT)}
             </p>

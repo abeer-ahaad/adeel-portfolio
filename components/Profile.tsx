@@ -5,7 +5,7 @@ import { EMAIL_ADDRESS } from "@/constants/contact"
 
 export default function Profile() {
   return (
-    <div className="profile flex gap-3 lg:gap-6 items-center font-sans mb-7 lg:mb-12">
+    <div className="profile flex gap-3 lg:gap-6 items-center font-sans mb-7 lg:mb-9">
       <Avatar />
       <div className="flex-1 flex flex-col gap-1 lg:gap-2">
         <h1 className="text-3xl lg:text-5xl tracking-tight uppercase font-montserrat font-black">
