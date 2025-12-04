@@ -12,7 +12,8 @@ export default function Testimonials() {
       <h1 className="text-xl font-semibold mb-1.5 lg:mb-3 rounded-lg px-3 py-1.5 text-center">
         {TESTI_HEADING}
       </h1>
-      <div className="flex flex-col lg:flex-row gap-4 lg:gap-2">
+      {/* className="" */}
+      <div className="flex flex-col gap-4 lg:gap-2 lg:grid lg:grid-cols-[1fr_1fr_1fr]">
         {[TESTIMONIAL1, TESTIMONIAL2, TESTIMONIAL3].map((t, idx) => (
           <div
             key={idx}
