@@ -14,7 +14,7 @@ export default function Home() {
         <div className="lg:flex-1">
           <Profile />
           <div className="lg:w-4/5 mb-10 lg:mb-12">
-            <p className="text-lg lg:text-lg leading-snug tracking-tight font-poppins">
+            <p className="text-lg lg:text-xl leading-snug font-poppins">
               {lineBreakAddedText(BIO_TEXT)}
             </p>
           </div>
